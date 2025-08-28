@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="finalwebapp-container">
+        <div class="finalwebapp-finalwebapp">
+          <div class="finalwebapp-service-overview">
+            <span class="finalwebapp-text100">
+              End-to-End Web Application Solutions Tailored for Your Business
+            </span>
+            <span class="finalwebapp-text101">
+              <span>
+                We provide comprehensive web application development services
+                that help businesses scale,
+              </span>
+              <br />
+              <span>
+                engage users, and optimize operations. From dynamic portals to
+                enterprise dashboards, our
+              </span>
+              <br />
+              <span>
+                solutions are engineered for security, performance, and
+                long-term growth.
+              </span>
+            </span>
+            <span class="finalwebapp-text107">Key Services:</span>
+            <img
+              src="public/line1422031-f6ol.svg"
+              alt="Line1422031"
+              class="finalwebapp-line1421"
+            />
+            <div class="finalwebapp-group1018">
+              <div class="finalwebapp-group9911">
+                <span class="finalwebapp-text108">Dashboard Development</span>
+                <span class="finalwebapp-text109">
+                  Real-time, intuitive dashboards for actionable business
+                  insights
+                </span>
+              </div>
+              <img
+                src="public/datavisualization2031-mgx-200h.png"
+                alt="datavisualization2031"
+                class="finalwebapp-datavisualization"
+              />
+            </div>
+            <div class="finalwebapp-group1020">
+              <div class="finalwebapp-group9912">
+                <span class="finalwebapp-text110">
+                  Progressive Web Apps (PWA)
+                </span>
+                <span class="finalwebapp-text111">
+                  Fast, reliable web apps with native app-like experiences.
+                </span>
+              </div>
+              <img
+                src="public/appdevelopment112031-rbu-200h.png"
+                alt="appdevelopment112031"
+                class="finalwebapp-appdevelopment11"
+              />
+            </div>
+            <div class="finalwebapp-group1019">
+              <div class="finalwebapp-group9913">
+                <span class="finalwebapp-text112">CMS Solutions</span>
+                <span class="finalwebapp-text113">
+                  Easy-to-use platforms for seamless content management.
+                </span>
+              </div>
+              <img
+                src="public/cmssystem2031-o1bf-200h.png"
+                alt="cmssystem2031"
+                class="finalwebapp-cmssystem"
+              />
+            </div>
+            <div class="finalwebapp-group1017">
+              <div class="finalwebapp-group9914">
+                <span class="finalwebapp-text114">Web Apps &amp; Portals</span>
+                <span class="finalwebapp-text115">
+                  Centralized, interactive portals for better collaboration and
+                  engagement.
+                </span>
+              </div>
+              <img
+                src="public/app2031-rrom-200h.png"
+                alt="app2031"
+                class="finalwebapp-app"
+              />
+            </div>
+            <div class="finalwebapp-group1021">
+              <div class="finalwebapp-group9915">
+                <span class="finalwebapp-text116">
+                  SEO &amp; Digital Marketing
+                </span>
+                <span class="finalwebapp-text117">
+                  Optimized apps designed to attract traffic and boost
+                  conversions.
+                </span>
+              </div>
+              <img
+                src="public/seo2031-ivsg-200h.png"
+                alt="seo2031"
+                class="finalwebapp-seo"
+              />
+            </div>
+            <div class="finalwebapp-group1022">
+              <div class="finalwebapp-group9916">
+                <span class="finalwebapp-text118">eCommerce Solutions</span>
+                <span class="finalwebapp-text119">
+                  Scalable, secure online stores for seamless, personalized
+                  shopping.
+                </span>
+              </div>
+              <img
+                src="public/onlineshopping2031-uj-200h.png"
+                alt="onlineshopping2031"
+                class="finalwebapp-onlineshopping"
+              />
+            </div>
+            <img
+              src="public/image1482031-p0j9-600h.png"
+              alt="image1482031"
+              class="finalwebapp-image148"
+            />
+          </div>
+          <div class="finalwebapp-our-advanced-technical-stack">
+            <span class="finalwebapp-text120">
+              Modern, Full-Stack Development for Powerful Web Applications
+            </span>
+            <span class="finalwebapp-text121">
+              Our team uses cutting-edge frontend frameworks, powerful backend
+              platforms, and enterprise-grade cloud infrastructure to build
+              secure, scalable, and high-performance web applications that are
+              ready for the future.
+            </span>
+            <span class="finalwebapp-text122">Our Technology Stack:</span>
+            <img
+              src="public/line1422031-z3ib.svg"
+              alt="Line1422031"
+              class="finalwebapp-line1422"
+            />
+            <img
+              src="public/line1432031-m2ak.svg"
+              alt="Line1432031"
+              class="finalwebapp-line143"
+            />
+            <img
+              src="public/line1442031-g1q.svg"
+              alt="Line1442031"
+              class="finalwebapp-line1441"
+            />
+            <img
+              src="public/line1452031-bktm5.svg"
+              alt="Line1452031"
+              class="finalwebapp-line145"
+            />
+            <span class="finalwebapp-text123">Frontend Development</span>
+            <span class="finalwebapp-text124">Cloud &amp; DevOps</span>
+            <span class="finalwebapp-text125">
+              CMS &amp; Low-Code Platforms
+            </span>
+            <span class="finalwebapp-text126">Security &amp; Optimization</span>
+            <span class="finalwebapp-text127">Backend Development</span>
+            <span class="finalwebapp-text128">Databases</span>
+            <img
+              src="public/rijavascriptfill2031-pvdc.svg"
+              alt="rijavascriptfill2031"
+              class="finalwebapp-rijavascriptfill"
+            />
+            <img
+              src="public/deviconcss3wordmark2031-vnjn.svg"
+              alt="deviconcss3wordmark2031"
+              class="finalwebapp-deviconcss3wordmark"
+            />
+            <img
+              src="public/materialiconthemeangular2031-rosq.svg"
+              alt="materialiconthemeangular2031"
+              class="finalwebapp-materialiconthemeangular"
+            />
+            <img
+              src="public/deviconvuejswordmark2031-15us.svg"
+              alt="deviconvuejswordmark2031"
+              class="finalwebapp-deviconvuejswordmark"
+            />
+            <img
+              src="public/vscodeiconsfiletypereactjs2031-bzv.svg"
+              alt="vscodeiconsfiletypereactjs2031"
+              class="finalwebapp-vscodeiconsfiletypereactjs"
+            />
+            <img
+              src="public/akariconsbootstrapfill2031-hews.svg"
+              alt="akariconsbootstrapfill2031"
+              class="finalwebapp-akariconsbootstrapfill"
+            />
+            <img
+              src="public/logoshtml52031-awk.svg"
+              alt="logoshtml52031"
+              class="finalwebapp-logoshtml5"
+            />
+            <div class="finalwebapp-group1039">
+              <img
+                src="public/vector2031-4ph5.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector10"
+              />
+              <div class="finalwebapp-group1036">
+                <img
+                  src="public/vector2031-1995.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector11"
+                />
+                <img
+                  src="public/vector2031-auq2.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector12"
+                />
+              </div>
+            </div>
+            <img
+              src="public/vector2031-xpjn.svg"
+              alt="Vector2031"
+              class="finalwebapp-vector13"
+            />
+            <div class="finalwebapp-devicondotnetcore">
+              <div class="finalwebapp-group1">
+                <img
+                  src="public/vector2031-m0g.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector14"
+                />
+                <img
+                  src="public/vector2031-k328.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector15"
+                />
+              </div>
+            </div>
+            <img
+              src="public/deviconjava2031-mggk.svg"
+              alt="deviconjava2031"
+              class="finalwebapp-deviconjava"
+            />
+            <img
+              src="public/vector2031-hx3.svg"
+              alt="Vector2031"
+              class="finalwebapp-vector16"
+            />
+            <div class="finalwebapp-skilliconsexpressjsdark">
+              <div class="finalwebapp-group2">
+                <img
+                  src="public/vector2031-nf0u.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector17"
+                />
+                <img
+                  src="public/vector2031-nfjh.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector18"
+                />
+              </div>
+            </div>
+            <div class="finalwebapp-deviconnextjswordmark">
+              <div class="finalwebapp-group1038">
+                <img
+                  src="public/vector2031-sucf.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector19"
+                />
+              </div>
+            </div>
+            <div class="finalwebapp-group1040">
+              <img
+                src="public/vector2031-b88c.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector20"
+              />
+              <img
+                src="public/vector2031-y3uh.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector21"
+              />
+            </div>
+            <img
+              src="public/deviconpython2031-okzf.svg"
+              alt="deviconpython2031"
+              class="finalwebapp-deviconpython"
+            />
+            <img
+              src="public/materialiconthemedjango2031-k97.svg"
+              alt="materialiconthemedjango2031"
+              class="finalwebapp-materialiconthemedjango"
+            />
+            <div class="finalwebapp-group1037">
+              <img
+                src="public/deviconnodejswordmark2031-v01.svg"
+                alt="deviconnodejswordmark2031"
+                class="finalwebapp-deviconnodejswordmark"
+              />
+              <img
+                src="public/deviconlaravelwordmark2031-3rh.svg"
+                alt="deviconlaravelwordmark2031"
+                class="finalwebapp-deviconlaravelwordmark"
+              />
+            </div>
+            <img
+              src="public/logosfirebase2031-vlxj.svg"
+              alt="logosfirebase2031"
+              class="finalwebapp-logosfirebase"
+            />
+            <img
+              src="public/deviconmongodbwordmark2031-hqt54.svg"
+              alt="deviconmongodbwordmark2031"
+              class="finalwebapp-deviconmongodbwordmark"
+            />
+            <img
+              src="public/deviconmariadbwordmark2031-mvie.svg"
+              alt="deviconmariadbwordmark2031"
+              class="finalwebapp-deviconmariadbwordmark"
+            />
+            <img
+              src="public/logosmysql2031-ys05.svg"
+              alt="logosmysql2031"
+              class="finalwebapp-logosmysql"
+            />
+            <img
+              src="public/deviconpostgresqlwordmark2031-uwod.svg"
+              alt="deviconpostgresqlwordmark2031"
+              class="finalwebapp-deviconpostgresqlwordmark"
+            />
+            <img
+              src="public/deviconrediswordmark2031-pium.svg"
+              alt="deviconrediswordmark2031"
+              class="finalwebapp-deviconrediswordmark"
+            />
+            <div class="finalwebapp-group1042">
+              <img
+                src="public/vector2031-so8.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector22"
+              />
+              <img
+                src="public/vector2031-vqm.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector24"
+              />
+            </div>
+            <div class="finalwebapp-group1041">
+              <img
+                src="public/vector2031-ctj.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector25"
+              />
+              <img
+                src="public/vector2031-n0un.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector26"
+              />
+              <img
+                src="public/vector2031-1yao.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector27"
+              />
+              <img
+                src="public/vector2031-xd2e.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector28"
+              />
+              <img
+                src="public/vector2031-u0tm.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector29"
+              />
+            </div>
+            <div class="finalwebapp-group1043">
+              <img
+                src="public/vector2031-lgy9.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector30"
+              />
+              <img
+                src="public/vector2031-zt5n.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector31"
+              />
+              <img
+                src="public/vector2031-e6f.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector32"
+              />
+              <img
+                src="public/vector2031-mb5.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector33"
+              />
+              <img
+                src="public/vector2031-6z5.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector34"
+              />
+            </div>
+            <div class="finalwebapp-logosdocker"></div>
+            <div class="finalwebapp-group1045">
+              <img
+                src="public/vector2031-ulvb.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector35"
+              />
+              <img
+                src="public/vector2031-irwa.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector36"
+              />
+              <img
+                src="public/vector2031-d3vm.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector37"
+              />
+            </div>
+            <div class="finalwebapp-group1046">
+              <img
+                src="public/vector2031-oqmh.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector38"
+              />
+              <img
+                src="public/vector2031-a1zl.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector39"
+              />
+              <img
+                src="public/vector2031-y5xj.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector40"
+              />
+              <img
+                src="public/vector2031-tne.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector41"
+              />
+              <img
+                src="public/vector2031-mv1z.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector42"
+              />
+              <img
+                src="public/vector2031-m8pv.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector43"
+              />
+              <img
+                src="public/vector2031-8ub8.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector44"
+              />
+              <img
+                src="public/vector2031-zll.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector45"
+              />
+              <img
+                src="public/vector2031-fbrb.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector46"
+              />
+              <img
+                src="public/vector2031-317j.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector47"
+              />
+              <img
+                src="public/vector2031-5e3m.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector48"
+              />
+              <img
+                src="public/vector2031-09ph.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector49"
+              />
+              <img
+                src="public/vector2031-tbme.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector50"
+              />
+              <img
+                src="public/vector2031-eyw9.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector51"
+              />
+              <img
+                src="public/vector2031-7li.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector52"
+              />
+              <img
+                src="public/vector2031-2x8.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector53"
+              />
+              <img
+                src="public/vector2031-vs9.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector54"
+              />
+            </div>
+            <div class="finalwebapp-group1048">
+              <img
+                src="public/vector2031-3t.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector55"
+              />
+              <div class="finalwebapp-group1044">
+                <img
+                  src="public/vector2031-qqm.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector56"
+                />
+                <img
+                  src="public/vector2031-k6f5.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector57"
+                />
+                <img
+                  src="public/vector2031-5ux.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector58"
+                />
+                <img
+                  src="public/vector2031-51jb.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector59"
+                />
+                <img
+                  src="public/vector2031-0lj8.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector60"
+                />
+              </div>
+            </div>
+            <img
+              src="public/logoswebflow2031-4bn.svg"
+              alt="logoswebflow2031"
+              class="finalwebapp-logoswebflow"
+            />
+            <img
+              src="public/vector2031-jo6t.svg"
+              alt="Vector2031"
+              class="finalwebapp-vector61"
+            />
+            <div class="finalwebapp-skilliconswordpress">
+              <div class="finalwebapp-group3">
+                <img
+                  src="public/vector2031-5hp9.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector62"
+                />
+                <img
+                  src="public/vector2031-2um.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector63"
+                />
+                <img
+                  src="public/vector2031-u7vb.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector64"
+                />
+                <img
+                  src="public/vector2031-9uku.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector65"
+                />
+              </div>
+            </div>
+            <img
+              src="public/logosakamai2031-o4e.svg"
+              alt="logosakamai2031"
+              class="finalwebapp-logosakamai"
+            />
+            <img
+              src="public/logoskeycdn2031-95hu.svg"
+              alt="logoskeycdn2031"
+              class="finalwebapp-logoskeycdn"
+            />
+            <img
+              src="public/deviconcloudflareworkerswordmark2031-1oy.svg"
+              alt="deviconcloudflareworkerswordmark2031"
+              class="finalwebapp-deviconcloudflareworkerswordmark"
+            />
+            <img
+              src="public/deviconoauth2031-wz5g.svg"
+              alt="deviconoauth2031"
+              class="finalwebapp-deviconoauth"
+            />
+            <div class="finalwebapp-logosjwt">
+              <div class="finalwebapp-group1049">
+                <img
+                  src="public/vector2031-2q26.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector66"
+                />
+                <img
+                  src="public/vector2031-wf0d.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector67"
+                />
+                <img
+                  src="public/vector2031-d33.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector68"
+                />
+                <img
+                  src="public/vector2031-exd7.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector69"
+                />
+                <img
+                  src="public/vector2031-5ifo.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector70"
+                />
+                <img
+                  src="public/vector2031-g35l.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector71"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="finalwebapp-why-choose-us">
+            <span class="finalwebapp-text129">Why Choose Us?</span>
+            <span class="finalwebapp-text130">
+              Your Trusted Partner for Custom Web Application Success
+            </span>
+            <div class="finalwebapp-frame6261">
+              <span class="finalwebapp-text131">Proven Expertise</span>
+              <img
+                src="public/expertise2031-nh5-200h.png"
+                alt="expertise2031"
+                class="finalwebapp-expertise"
+              />
+              <span class="finalwebapp-text132">
+                <span>Delivering secure, scalable,</span>
+                <br />
+                <span>high-performance web</span>
+                <br />
+                <span>apps across industries.</span>
+              </span>
+            </div>
+            <div class="finalwebapp-frame627">
+              <span class="finalwebapp-text138">Tailored Solutions</span>
+              <img
+                src="public/solution2031-8sac-200h.png"
+                alt="solution2031"
+                class="finalwebapp-solution"
+              />
+              <span class="finalwebapp-text139">
+                <span>Customized to fit unique</span>
+                <br />
+                <span>business goals and</span>
+                <br />
+                <span>industry needs.</span>
+              </span>
+            </div>
+            <div class="finalwebapp-frame628">
+              <span class="finalwebapp-text145">Agile &amp; Collaborative</span>
+              <img
+                src="public/continuity2031-m3u-200h.png"
+                alt="continuity2031"
+                class="finalwebapp-continuity"
+              />
+              <span class="finalwebapp-text146">
+                <span>Flexible, transparent process</span>
+                <br />
+                <span>adapting to your</span>
+                <br />
+                <span>evolving requirements.</span>
+              </span>
+            </div>
+            <div class="finalwebapp-frame629">
+              <span class="finalwebapp-text152">End-to-End Support</span>
+              <img
+                src="public/route2031-k2t-200h.png"
+                alt="route2031"
+                class="finalwebapp-route"
+              />
+              <span class="finalwebapp-text153">
+                <span>Full-cycle services from</span>
+                <br />
+                <span>development to maintenance</span>
+                <br />
+                <span>and hosting.</span>
+              </span>
+            </div>
+            <div class="finalwebapp-frame630">
+              <span class="finalwebapp-text159">
+                <span>Cutting-Edge</span>
+                <br />
+                <span>Technologies</span>
+              </span>
+              <img
+                src="public/machinelearning2031-m2d-200h.png"
+                alt="machinelearning2031"
+                class="finalwebapp-machinelearning"
+              />
+              <span class="finalwebapp-text163">
+                <span>Using modern frameworks,</span>
+                <br />
+                <span>cloud, and DevOps for</span>
+                <br />
+                <span>future-ready solutions</span>
+              </span>
+            </div>
+            <div class="finalwebapp-frame6262">
+              <span class="finalwebapp-text169">Enterprise Security</span>
+              <img
+                src="public/company2031-qd8-200h.png"
+                alt="company2031"
+                class="finalwebapp-company"
+              />
+              <span class="finalwebapp-text170">
+                <span>Strict standards including</span>
+                <br />
+                <span>SSL, OAuth, DDoS</span>
+                <br />
+                <span>protection, and audits.</span>
+              </span>
+            </div>
+            <img
+              src="public/line1442031-jze.svg"
+              alt="Line1442031"
+              class="finalwebapp-line1442"
+            />
+          </div>
+          <div class="finalwebapp-cta">
+            <div class="finalwebapp-frame641">
+              <span class="finalwebapp-text176">
+                <span>Ready to Build Your Next-</span>
+                <br />
+                <span>Generation Web Application?</span>
+              </span>
+              <span class="finalwebapp-text180">
+                Partner with us to create secure, scalable, and high-performance
+                web solutions tailored to your unique business needs. Let’s turn
+                your vision into a powerful digital reality.
+              </span>
+              <span class="finalwebapp-text181">
+                Start your project today and unlock your business’s full
+                potential.
+              </span>
+              <div class="finalwebapp-group9261">
+                <span class="finalwebapp-text182">Talk to Us</span>
+              </div>
+              <div class="finalwebapp-group1050">
+                <img
+                  src="public/monitor2031-dmci-200h.png"
+                  alt="monitor2031"
+                  class="finalwebapp-monitor"
+                />
+                <img
+                  src="public/mobilephone12031-9cfg-200h.png"
+                  alt="mobilephone12031"
+                  class="finalwebapp-mobilephone1"
+                />
+                <img
+                  src="public/appsadd12031-fy98-200h.png"
+                  alt="appsadd12031"
+                  class="finalwebapp-appsadd1"
+                />
+                <div class="finalwebapp-group4"></div>
+                <img
+                  src="public/arrow312031-us0e.svg"
+                  alt="Arrow312031"
+                  class="finalwebapp-arrow31"
+                />
+                <img
+                  src="public/arrow322031-134.svg"
+                  alt="Arrow322031"
+                  class="finalwebapp-arrow32"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="finalwebapp-footer">
+            <span class="finalwebapp-text183">Codenscious.ai</span>
+            <div class="finalwebapp-frame6241">
+              <span class="finalwebapp-text184">Contact Us</span>
+              <img
+                src="public/vector2031-amsu.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector72"
+              />
+              <img
+                src="public/vector2031-dzbc.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector73"
+              />
+            </div>
+            <span class="finalwebapp-text185">Information</span>
+            <div class="finalwebapp-frame625">
+              <span class="finalwebapp-text186">About Us</span>
+              <span class="finalwebapp-text187">Events</span>
+              <span class="finalwebapp-text188">Testimonials</span>
+              <span class="finalwebapp-text189">More Details</span>
+              <span class="finalwebapp-text190">Blogs</span>
+            </div>
+            <div class="finalwebapp-frame6242">
+              <span class="finalwebapp-text191">Services</span>
+              <span class="finalwebapp-text192">Support</span>
+              <span class="finalwebapp-text193">Privacy Policy</span>
+              <span class="finalwebapp-text194">Terms &amp; Conditions</span>
+            </div>
+            <span class="finalwebapp-text195">Links</span>
+            <span class="finalwebapp-text196">Subscribe</span>
+            <span class="finalwebapp-text197">
+              <span>Subscribe to our newsletter</span>
+              <br />
+              <span>for upcoming news!!</span>
+            </span>
+            <div class="finalwebapp-group624">
+              <span class="finalwebapp-text201">Subscribe</span>
+            </div>
+            <div class="finalwebapp-group625">
+              <span class="finalwebapp-text202">Enter Your Email</span>
+            </div>
+            <img
+              src="public/line42031-t3z4.svg"
+              alt="Line42031"
+              class="finalwebapp-line4"
+            />
+            <div class="finalwebapp-group7641">
+              <div class="finalwebapp-logog1">
+                <img
+                  src="public/line412031-9cci.svg"
+                  alt="Line412031"
+                  class="finalwebapp-line411"
+                />
+                <img
+                  src="public/line472031-w8h3k.svg"
+                  alt="Line472031"
+                  class="finalwebapp-line471"
+                />
+                <img
+                  src="public/line422031-k1xb.svg"
+                  alt="Line422031"
+                  class="finalwebapp-line421"
+                />
+                <img
+                  src="public/line482031-mzx.svg"
+                  alt="Line482031"
+                  class="finalwebapp-line481"
+                />
+                <img
+                  src="public/line452031-faol.svg"
+                  alt="Line452031"
+                  class="finalwebapp-line451"
+                />
+                <img
+                  src="public/line462031-xzhf.svg"
+                  alt="Line462031"
+                  class="finalwebapp-line461"
+                />
+                <img
+                  src="public/line432031-vqqb.svg"
+                  alt="Line432031"
+                  class="finalwebapp-line431"
+                />
+                <img
+                  src="public/line582031-j2x9.svg"
+                  alt="Line582031"
+                  class="finalwebapp-line581"
+                />
+                <img
+                  src="public/line522031-tm8.svg"
+                  alt="Line522031"
+                  class="finalwebapp-line521"
+                />
+                <img
+                  src="public/line532031-94zq.svg"
+                  alt="Line532031"
+                  class="finalwebapp-line531"
+                />
+                <img
+                  src="public/line492031-hywp.svg"
+                  alt="Line492031"
+                  class="finalwebapp-line491"
+                />
+                <img
+                  src="public/line572031-el.svg"
+                  alt="Line572031"
+                  class="finalwebapp-line571"
+                />
+                <img
+                  src="public/line502031-54mn.svg"
+                  alt="Line502031"
+                  class="finalwebapp-line501"
+                />
+                <img
+                  src="public/line562031-ajza.svg"
+                  alt="Line562031"
+                  class="finalwebapp-line561"
+                />
+                <img
+                  src="public/line442031-ia3.svg"
+                  alt="Line442031"
+                  class="finalwebapp-line441"
+                />
+                <img
+                  src="public/line542031-b09a.svg"
+                  alt="Line542031"
+                  class="finalwebapp-line541"
+                />
+                <img
+                  src="public/line512031-y5t5.svg"
+                  alt="Line512031"
+                  class="finalwebapp-line511"
+                />
+                <img
+                  src="public/line552031-l9a9.svg"
+                  alt="Line552031"
+                  class="finalwebapp-line551"
+                />
+                <img
+                  src="public/ellipse262031-zkjd-200h.png"
+                  alt="Ellipse262031"
+                  class="finalwebapp-ellipse261"
+                />
+                <img
+                  src="public/ellipse232031-xljf-200h.png"
+                  alt="Ellipse232031"
+                  class="finalwebapp-ellipse231"
+                />
+                <img
+                  src="public/ellipse222031-ia9-200h.png"
+                  alt="Ellipse222031"
+                  class="finalwebapp-ellipse221"
+                />
+                <img
+                  src="public/ellipse212031-y6pj-200h.png"
+                  alt="Ellipse212031"
+                  class="finalwebapp-ellipse211"
+                />
+                <img
+                  src="public/ellipse202031-5309-200h.png"
+                  alt="Ellipse202031"
+                  class="finalwebapp-ellipse201"
+                />
+                <img
+                  src="public/ellipse242031-qu46k-200h.png"
+                  alt="Ellipse242031"
+                  class="finalwebapp-ellipse241"
+                />
+                <img
+                  src="public/ellipse252031-3cb-200h.png"
+                  alt="Ellipse252031"
+                  class="finalwebapp-ellipse251"
+                />
+                <img
+                  src="public/ellipse192031-r06g-200h.png"
+                  alt="Ellipse192031"
+                  class="finalwebapp-ellipse191"
+                />
+                <div class="finalwebapp-group7491">
+                  <img
+                    src="public/vector232031-8hjo.svg"
+                    alt="Vector232031"
+                    class="finalwebapp-vector231"
+                  />
+                  <img
+                    src="public/ellipse272031-zrob-200h.png"
+                    alt="Ellipse272031"
+                    class="finalwebapp-ellipse271"
+                  />
+                </div>
+              </div>
+              <span class="finalwebapp-text203">&lt; / &gt;</span>
+            </div>
+            <div class="finalwebapp-group833">
+              <img
+                src="public/vector2031-1eg.svg"
+                alt="Vector2031"
+                class="finalwebapp-vector74"
+              />
+              <div class="finalwebapp-group832">
+                <img
+                  src="public/vector2031-4hzd.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector75"
+                />
+                <img
+                  src="public/vector2031-0wnl.svg"
+                  alt="Vector2031"
+                  class="finalwebapp-vector76"
+                />
+              </div>
+            </div>
+            <span class="finalwebapp-text204">
+              <span>"Crafting innovative digital experiences</span>
+              <br />
+              <span>that transform businesses."</span>
+            </span>
+          </div>
+          <div class="finalwebapp-hero">
+            <img
+              src="public/rectangle2932031-pb96-500h.png"
+              alt="Rectangle2932031"
+              class="finalwebapp-rectangle293"
+            />
+            <div class="finalwebapp-header">
+              <div class="finalwebapp-group7642">
+                <div class="finalwebapp-logog2">
+                  <img
+                    src="public/line412031-hzos.svg"
+                    alt="Line412031"
+                    class="finalwebapp-line412"
+                  />
+                  <img
+                    src="public/line472031-7na.svg"
+                    alt="Line472031"
+                    class="finalwebapp-line472"
+                  />
+                  <img
+                    src="public/line422031-117.svg"
+                    alt="Line422031"
+                    class="finalwebapp-line422"
+                  />
+                  <img
+                    src="public/line482031-5fzf.svg"
+                    alt="Line482031"
+                    class="finalwebapp-line482"
+                  />
+                  <img
+                    src="public/line452031-5bpr.svg"
+                    alt="Line452031"
+                    class="finalwebapp-line452"
+                  />
+                  <img
+                    src="public/line462031-pju.svg"
+                    alt="Line462031"
+                    class="finalwebapp-line462"
+                  />
+                  <img
+                    src="public/line432031-lwtm.svg"
+                    alt="Line432031"
+                    class="finalwebapp-line432"
+                  />
+                  <img
+                    src="public/line582031-bifuf.svg"
+                    alt="Line582031"
+                    class="finalwebapp-line582"
+                  />
+                  <img
+                    src="public/line522031-7z7p.svg"
+                    alt="Line522031"
+                    class="finalwebapp-line522"
+                  />
+                  <img
+                    src="public/line532031-49am.svg"
+                    alt="Line532031"
+                    class="finalwebapp-line532"
+                  />
+                  <img
+                    src="public/line492031-ibc.svg"
+                    alt="Line492031"
+                    class="finalwebapp-line492"
+                  />
+                  <img
+                    src="public/line572031-cs1.svg"
+                    alt="Line572031"
+                    class="finalwebapp-line572"
+                  />
+                  <img
+                    src="public/line502031-xgl.svg"
+                    alt="Line502031"
+                    class="finalwebapp-line502"
+                  />
+                  <img
+                    src="public/line562031-wb6j.svg"
+                    alt="Line562031"
+                    class="finalwebapp-line562"
+                  />
+                  <img
+                    src="public/line442031-w0t.svg"
+                    alt="Line442031"
+                    class="finalwebapp-line442"
+                  />
+                  <img
+                    src="public/line542031-ai1a.svg"
+                    alt="Line542031"
+                    class="finalwebapp-line542"
+                  />
+                  <img
+                    src="public/line512031-b59.svg"
+                    alt="Line512031"
+                    class="finalwebapp-line512"
+                  />
+                  <img
+                    src="public/line552031-u08l.svg"
+                    alt="Line552031"
+                    class="finalwebapp-line552"
+                  />
+                  <img
+                    src="public/ellipse262031-1ent-200h.png"
+                    alt="Ellipse262031"
+                    class="finalwebapp-ellipse262"
+                  />
+                  <img
+                    src="public/ellipse232031-jd0w-200h.png"
+                    alt="Ellipse232031"
+                    class="finalwebapp-ellipse232"
+                  />
+                  <img
+                    src="public/ellipse222031-5u9a-200w.png"
+                    alt="Ellipse222031"
+                    class="finalwebapp-ellipse222"
+                  />
+                  <img
+                    src="public/ellipse212031-185d-200h.png"
+                    alt="Ellipse212031"
+                    class="finalwebapp-ellipse212"
+                  />
+                  <img
+                    src="public/ellipse202031-60r-200h.png"
+                    alt="Ellipse202031"
+                    class="finalwebapp-ellipse202"
+                  />
+                  <img
+                    src="public/ellipse242031-1za-200h.png"
+                    alt="Ellipse242031"
+                    class="finalwebapp-ellipse242"
+                  />
+                  <img
+                    src="public/ellipse252031-jkbj-200w.png"
+                    alt="Ellipse252031"
+                    class="finalwebapp-ellipse252"
+                  />
+                  <img
+                    src="public/ellipse192031-dq89-200w.png"
+                    alt="Ellipse192031"
+                    class="finalwebapp-ellipse192"
+                  />
+                  <div class="finalwebapp-group7492">
+                    <img
+                      src="public/vector232031-q9mg.svg"
+                      alt="Vector232031"
+                      class="finalwebapp-vector232"
+                    />
+                    <img
+                      src="public/ellipse272031-9oc-200h.png"
+                      alt="Ellipse272031"
+                      class="finalwebapp-ellipse272"
+                    />
+                  </div>
+                </div>
+                <span class="finalwebapp-text208">&lt; / &gt;</span>
+              </div>
+              <span class="finalwebapp-text209">Codenscious Ai.</span>
+              <div class="finalwebapp-group599">
+                <span class="finalwebapp-text210">Join Us</span>
+              </div>
+              <div class="finalwebapp-group844">
+                <span class="finalwebapp-text211">Services</span>
+                <span class="finalwebapp-text212">About Us</span>
+                <span class="finalwebapp-text213">Products</span>
+                <span class="finalwebapp-text214">Projects</span>
+              </div>
+            </div>
+            <span class="finalwebapp-text215">
+              <span>
+                Scalable, secure, and high-performance web solutions crafted to
+              </span>
+              <br />
+              <span>empower your business growth.</span>
+            </span>
+            <div class="finalwebapp-group9262">
+              <span class="finalwebapp-text219">Get Started</span>
+            </div>
+            <div class="finalwebapp-group1024">
+              <span class="finalwebapp-text220">Request a Consultation</span>
+            </div>
+            <div class="finalwebapp-group1023">
+              <span class="finalwebapp-text221">
+                From custom portals to enterprise dashboards, we build web
+                applications with security, performance, and scalability at
+                their core — helping you engage users and streamline operations.
+              </span>
+            </div>
+            <span class="finalwebapp-text222">
+              Comprehensive Web Application Development Services
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
